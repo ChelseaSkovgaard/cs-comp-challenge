@@ -45,7 +45,7 @@ nav {
 }
 
 .card {
-  height: 350px;
+  height: 360px;
   width: 250px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   margin: 20px;
@@ -55,7 +55,23 @@ nav {
   display: inline-block;
   height: 125px;
   width: 250px;
-  background-color: #F69454;
+  background-image: url("./images/carrot-1.jpg");
+}
+
+.one {
+  background-image: url("./images/carrot-1.jpg");
+}
+
+.two {
+  background-image: url("./images/carrot-2.jpg");
+}
+
+.three {
+  background-image: url("./images/carrot-3.jpg");
+}
+
+.four {
+  background-image: url("./images/carrot-5.jpg");
 }
 
 .image aside {
@@ -85,7 +101,8 @@ nav {
 .website {
   background-color: #F69454;
   margin: 0 12px;
-  height: 40px;
+  height: 25px;
+  padding: 12px;
 }
 
 .playlist, .attachments {
@@ -107,8 +124,20 @@ nav {
 }
 .view-aside {
   margin: 12px 12px 0 0;
+  color: white;
 }
 
 .view-button {
   margin: 12px 0 0 12px;
+  background-image: url("./images/carrot-icon.svg");
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+  width: 50px;
+  height: 50px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
 }
