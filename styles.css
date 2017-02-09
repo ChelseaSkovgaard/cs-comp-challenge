@@ -1,0 +1,114 @@
+/*#EE693F,
+#F69454,
+#FCFDFE,
+#739F3D*/
+
+
+body {
+  background-color: #FCFDFE;
+  font-family: sans-serif;
+}
+header {
+  height: 150px;
+  background-color: #EE693F;
+  color: #FCFDFE;
+}
+
+nav {
+  color: #FCFDFE;
+  display: inline-block;
+  vertical-align: baseline;
+  margin: 100px 20px 20px;
+}
+
+#nav-aside {
+  float:right;
+  margin: 20px 20px;
+}
+
+#sign-in, #logo {
+  display: block;
+}
+
+#sign-in {
+  margin-bottom: 70px;
+}
+
+.nav-choice {
+  margin: 0 10px;
+}
+
+.page-heading {
+  font-weight: bold;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.card {
+  height: 350px;
+  width: 250px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: 20px;
+}
+
+.image {
+  display: inline-block;
+  height: 125px;
+  width: 250px;
+  background-color: #F69454;
+}
+
+.image aside {
+  display: inline-block;
+  float: right;
+}
+
+.image span {
+  display: block;
+}
+
+.image button {
+  vertical-align: top;
+}
+
+.name {
+  margin: 12px 12px 3px 12px;
+  font-size: 20px;
+  color: #EE693F;
+}
+
+.date {
+  font-size: 16px;
+  margin: 0 0 12px 12px;
+}
+
+.website {
+  background-color: #F69454;
+  margin: 0 12px;
+  height: 40px;
+}
+
+.playlist, .attachments {
+  font-size: 16px;
+  margin: 12px 12px 3px;
+  color: #EE693F;
+}
+
+.playlist-name, .attachments-number {
+  margin: 0 12px;
+}
+
+.attachments-number, .view-number {
+  font-size: 30px;
+}
+
+.attachments-number {
+  color: #739F3D;
+}
+.view-aside {
+  margin: 12px 12px 0 0;
+}
+
+.view-button {
+  margin: 12px 0 0 12px;
+}
