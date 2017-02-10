@@ -165,7 +165,7 @@ nav {
   width: 50px;
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 750px){
   #nav-aside {
     float:none;
     margin-top: -135px;
