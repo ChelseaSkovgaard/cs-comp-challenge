@@ -23,15 +23,22 @@ nav {
 
 #nav-aside {
   float:right;
-  margin: 20px 20px;
+  margin: 20px 20px 40px;
 }
 
 #sign-in, #logo {
   display: block;
 }
 
+#logo {
+  font-size: 40px;
+  font-weight: bold;
+}
+
 #sign-in {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
+  color: #A9E200;
+  /*#50B948;*/
 }
 
 .nav-choice {
@@ -42,6 +49,7 @@ nav {
   font-weight: bold;
   font-size: 30px;
   margin: 20px;
+  color: #EE693F;
 }
 
 .card {
@@ -96,35 +104,51 @@ nav {
 .date {
   font-size: 16px;
   margin: 0 0 12px 12px;
+  color: #F69454;
 }
 
 .website {
-  background-color: #F69454;
+  background-color: #FFD4AA;
   margin: 0 12px;
   height: 25px;
   padding: 12px;
+  color: #EE693F;
 }
 
 .playlist, .attachments {
-  font-size: 16px;
+  font-size: 12px;
   margin: 12px 12px 3px;
   color: #EE693F;
 }
 
 .playlist-name, .attachments-number {
   margin: 0 12px;
+
 }
 
 .attachments-number, .view-number {
   font-size: 30px;
 }
 
+.playlist-name {
+  color: #EE693F;
+}
+
 .attachments-number {
-  color: #739F3D;
+  color: #A9E200;
 }
 .view-aside {
   margin: 12px 12px 0 0;
   color: white;
+}
+
+#video-icon, #meal-icon, #talk-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.videos, .recipes {
+  color: #FFD4AA;
 }
 
 .view-button {
