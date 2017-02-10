@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="41px" viewBox="0 0 40 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 17</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,37.4497152 C0,38.836625 1.34230941,39.9609375 3.0065012,39.9609375 L36.9934988,39.9609375 C38.6539436,39.9609375 40,38.8328863 40,37.4497152 L40,23.9944056 C40,22.6074959 38.8372646,20.9143694 37.3731342,20.2571071 C37.3731342,20.2571071 29.9112769,16.1680349 20,16.1680349 C10.0887231,16.1680349 2.61138912,20.2637809 2.61138912,20.2637809 C1.16915874,20.9372383 0,22.6112345 0,23.9944056 L0,37.4497152" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="40" height="23.7929026" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-17" transform="translate(0.000000, 1.000000)" stroke="#A9E200">
+            <g id="Group-8-Copy" transform="translate(10.000000, 0.000000)" stroke-width="2">
+                <ellipse id="Oval-3-Copy" cx="10" cy="8.46897064" rx="10" ry="8.46897064"></ellipse>
+            </g>
+            <use id="Rectangle-5" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

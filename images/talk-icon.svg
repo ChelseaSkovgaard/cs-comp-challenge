@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>Chat</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Chat" stroke="#FFFFFF" stroke-width="2">
+            <g id="Icon" transform="translate(21.000000, 21.000000) scale(-1, 1) translate(-21.000000, -21.000000) translate(1.000000, 1.000000)">
+                <path d="M37.0299595,29.4024291 C38.5587045,26.6267206 39.4331984,23.4364372 39.4331984,20.048583 C39.4331984,9.31497976 30.7303644,0.615384615 20,0.615384615 C9.26639676,0.615384615 0.566801619,9.31497976 0.566801619,20.048583 C0.566801619,30.7789474 9.26639676,39.4817814 20,39.4817814 C24.0712551,39.4817814 27.8477733,38.2218623 30.9700405,36.0842105 C36.4663968,40.4502024 39.4331984,39.2712551 39.4331984,39.2712551 C36.1684211,34.8307692 35.4850202,32.7611336 37.0299595,29.4024291 L37.0299595,29.4024291 Z" id="Line-15"></path>
+            </g>
+        </g>
+    </g>
+</svg>

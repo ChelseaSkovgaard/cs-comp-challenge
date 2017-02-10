@@ -1,61 +1,94 @@
-/*#EE693F,
-#F69454,
-#FCFDFE,
-#739F3D*/
-
-
 body {
   background-color: #FCFDFE;
   font-family: sans-serif;
 }
+
+/*Header */
 header {
-  height: 150px;
   background-color: #EE693F;
   color: #FCFDFE;
+  height: 120px;
 }
 
 nav {
   color: #FCFDFE;
   display: inline-block;
+  margin: 80px 20px 20px;
   vertical-align: baseline;
-  margin: 100px 20px 20px;
 }
 
 #nav-aside {
-  float:right;
-  margin: 20px 20px;
+  float: right;
+  margin: 20px 20px 40px;
 }
 
 #sign-in, #logo {
   display: block;
 }
 
+#logo {
+  font-size: 40px;
+  font-weight: bold;
+}
+
 #sign-in {
-  margin-bottom: 70px;
+  color: #A9E200;
+  margin-bottom: 20px;
 }
 
 .nav-choice {
   margin: 0 10px;
 }
 
+#video-icon, #meal-icon, #talk-icon, #person-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.videos, .recipes {
+  color: #FFD4AA;
+}
+
+/*Page Body*/
+
 .page-heading {
-  font-weight: bold;
+  color: #EE693F;
   font-size: 30px;
+  font-weight: bold;
   margin: 20px;
 }
 
+/*Cards*/
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .card {
-  height: 360px;
-  width: 250px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  height: 360px;
   margin: 20px;
+  width: 250px;
 }
 
 .image {
   display: inline-block;
   height: 125px;
   width: 250px;
-  background-image: url("./images/carrot-1.jpg");
+}
+
+.image aside {
+  display: inline-block;
+  float: right;
+}
+
+.image span {
+  display: block;
+}
+
+.image button {
+  vertical-align: top;
 }
 
 .one {
@@ -74,41 +107,30 @@ nav {
   background-image: url("./images/carrot-5.jpg");
 }
 
-.image aside {
-  display: inline-block;
-  float: right;
-}
-
-.image span {
-  display: block;
-}
-
-.image button {
-  vertical-align: top;
-}
-
 .name {
-  margin: 12px 12px 3px 12px;
-  font-size: 20px;
   color: #EE693F;
+  font-size: 20px;
+  margin: 12px 12px 3px 12px;
 }
 
 .date {
+  color: #F69454;
   font-size: 16px;
   margin: 0 0 12px 12px;
 }
 
 .website {
-  background-color: #F69454;
-  margin: 0 12px;
+  background-color: #FFD4AA;
+  color: #EE693F;
   height: 25px;
-  padding: 12px;
+  margin: 0 12px;
+  padding: 10px 8px;
 }
 
 .playlist, .attachments {
-  font-size: 16px;
-  margin: 12px 12px 3px;
   color: #EE693F;
+  font-size: 12px;
+  margin: 12px 12px 3px;
 }
 
 .playlist-name, .attachments-number {
@@ -119,12 +141,17 @@ nav {
   font-size: 30px;
 }
 
-.attachments-number {
-  color: #739F3D;
+.playlist-name {
+  color: #EE693F;
 }
+
+.attachments-number {
+  color: #A9E200;
+}
+
 .view-aside {
-  margin: 12px 12px 0 0;
   color: white;
+  margin: 12px 12px 0 0;
 }
 
 .view-button {
@@ -133,11 +160,25 @@ nav {
   background-size: contain;
   background-color: transparent;
   border: none;
-  width: 50px;
   height: 50px;
+  width: 50px;
 }
 
-.cards {
-  display: flex;
-  flex-wrap: wrap;
+@media screen and (max-width: 650px){
+  #nav-aside {
+    float:none;
+    margin-top: -130px;
+  }
+
+  #sign-in, #logo {
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+  header {
+    height: 150px;
+  }
+  nav {
+    margin-top: 100px;
+  }
 }
