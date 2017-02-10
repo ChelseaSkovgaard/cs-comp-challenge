@@ -168,12 +168,12 @@ nav {
 @media screen and (max-width: 650px){
   #nav-aside {
     float:none;
-    margin-top: -130px;
+    margin-top: -135px;
   }
 
   #sign-in, #logo {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 12px;
   }
 
   header {
@@ -181,5 +181,10 @@ nav {
   }
   nav {
     margin-top: 100px;
+  }
+
+  .videos, .recipes {
+    color: #FFD4AA;
+    margin-left: 10px;
   }
 }
