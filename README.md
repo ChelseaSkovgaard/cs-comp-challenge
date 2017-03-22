@@ -1,7 +1,7 @@
 # Static Comp Challenge
 
-The static comp challenge is the first in a series of three challenges to use HTML/CSS to recreate a static comp.
-There is not creative license but there is creative license in color, copy, images, and color palette. 
+The static comp challenge was to use HTML/CSS to recreate a static comp. The challenge was to recreate the comp but there was freedom to select different colors, copy, and images. Link to original assignment: http://frontend.turing.io/projects/m1-static-comp-2.html
+
 To make this challenge fun, I decided to make it carrot themed. 
 
 ##Screen Shot
